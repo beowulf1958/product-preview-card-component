@@ -1,0 +1,17 @@
+/* typography */
+body {
+    background-color: var(--cream);
+    font-family: Montserrat;
+    font-size: 0.865rem;
+}
+
+.product_category {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.product_name, .product_price {
+    font-family: var(--ff-accent);
+    font-size: var(--fs-accent);
+    font-weight: var(--fw-bold);
+}
